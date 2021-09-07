@@ -1,0 +1,12 @@
+services:
+  gorm-db:
+    image: mysql
+    environment:
+      MYSQL_USER: "kecske"
+      MYSQL_ROOT_PASSWORD: "12345678"
+      MYSQL_DATABASE: "GO_DB"
+    ports:
+      - "3306:3306"
+    volumes:
+      - "./config/my.conf:/etc/mysql/conf.d/config-file.cnf"
+      - "./data:/var/lib/mysql:rw"

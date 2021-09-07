@@ -1,0 +1,6 @@
+INSERT INTO GO_DB.users (id, email, password, first_day, default_day_start, default_day_end, work_hours, type, status, last_day) VALUES (2, 'kecske@kecske.com', 'asd', '2021-05-01', '09:00:00', '17:00:00', 8, 1, 1, '2021-05-31');
+INSERT INTO GO_DB.users (id, email, password, first_day, default_day_start, default_day_end, work_hours, type, status, last_day) VALUES (3, 'asd@asd.hu', 'asd2', '2021-05-12', '08:00:00', '16:00:00', 6, 2, 1, '2021-05-31');
+INSERT INTO GO_DB.users (id, email, password, first_day, default_day_start, default_day_end, work_hours, type, status, last_day) VALUES (4, 'asd', 'asd', '2021-05-21', '09:00:00', '17:00:00', 8, 1, 1, null);
+INSERT INTO GO_DB.users (id, email, password, first_day, default_day_start, default_day_end, work_hours, type, status, last_day) VALUES (5, 'asd', 'asd', '2021-05-21', '09:00:00', '17:00:00', 8, 1, 1, null);
+INSERT INTO GO_DB.users (id, email, password, first_day, default_day_start, default_day_end, work_hours, type, status, last_day) VALUES (6, 'asd', 'asd', '2021-05-21', '09:00:00', '17:00:00', 8, 1, 1, null);
+INSERT INTO GO_DB.users (id, email, password, first_day, default_day_start, default_day_end, work_hours, type, status, last_day) VALUES (7, 'asd', 'asd', '2021-05-21', '09:00:00', '17:00:00', 8, 1, 1, null);
