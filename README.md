@@ -1,11 +1,5 @@
 # time-tracker-backend
 
-# mognezni:
-* connection pool
-* tranzakcio: ha megmurdel akkor revertal
-* mysql enum
-* https://pkg.go.dev/cloud.google.com/go/civil
-
 
 ```shell
  docker run --name gorm-mysql -e MYSQL_ROOT_PASSWORD=12345678 -p 3306:3306 -d mysql
